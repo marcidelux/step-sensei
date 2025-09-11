@@ -5,6 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://marcidelux.github.io/step-sensei',
+	base: '/step-sensei',
 	integrations: [
 		starlight({
 			title: 'StepSensei',
