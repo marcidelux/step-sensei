@@ -38,11 +38,11 @@ export default defineConfig({
 							slug: 'modules/logic_info'
 						},
 						{
-							label: 'Chess & Mathematics',
+							label: 'Chess & Maths',
 							translations: {
-								'hu': 'Sakk & Matematika',
+								'hu': 'Sakk & Matek',
 							},
-							slug: 'modules/chess_mathematics'
+							slug: 'modules/chess_maths'
 						},
 					],
 				},
