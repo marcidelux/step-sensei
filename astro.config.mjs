@@ -18,31 +18,31 @@ export default defineConfig({
 			//social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
-					label: 'Courses',
+					label: 'Modules',
 					translations: {
-						'hu': 'Tanfolyamok',
+						'hu': 'Modulok',
 					},
 					items: [
 						{
 							label: 'Chess',
 							translations: {
-								'hu': 'Sakk',
+								'hu': 'Sakk angolul',
 							},
-							slug: 'courses/chess'
+							slug: 'modules/chess'
 						},
 						{
-							label: 'Informatics',
+							label: 'LogicInfo',
 							translations: {
-								'hu': 'Informatika',
+								'hu': 'LogicInfo',
 							},
-							slug: 'courses/informatics'
+							slug: 'modules/LogicInfo'
 						},
 						{
-							label: 'Mathematics',
+							label: 'Chess & Mathematics',
 							translations: {
-								'hu': 'Matematika',
+								'hu': 'Sakk & Matematika',
 							},
-							slug: 'courses/matematics'
+							slug: 'modules/chess & matematics'
 						},
 					],
 				},
