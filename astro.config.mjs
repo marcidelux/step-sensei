@@ -15,7 +15,7 @@ export default defineConfig({
 				en: { label: 'English' },
 				hu: { label: 'Magyar', lang: 'hu' }
 			},
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			//social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
 					label: 'Courses',
