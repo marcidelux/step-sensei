@@ -26,23 +26,23 @@ export default defineConfig({
 						{
 							label: 'Chess',
 							translations: {
-								'hu': 'Sakk angolul',
+								'hu': 'Sakk Angolul',
 							},
-							slug: 'modules/chess'
+							slug: 'modules/chess_english'
 						},
 						{
 							label: 'LogicInfo',
 							translations: {
 								'hu': 'LogicInfo',
 							},
-							slug: 'modules/LogicInfo'
+							slug: 'modules/logic_info'
 						},
 						{
 							label: 'Chess & Mathematics',
 							translations: {
 								'hu': 'Sakk & Matematika',
 							},
-							slug: 'modules/chess & matematics'
+							slug: 'modules/chess_mathematics'
 						},
 					],
 				},
