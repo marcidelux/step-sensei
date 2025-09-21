@@ -10,6 +10,7 @@ hero:
 import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 import { Card } from '@astrojs/starlight/components';
 
+
 # Küldetésünk
 <span style={{ fontSize: '1.4rem' }}>
 A LogicInfo egy különleges képzés, ahol a tanulás és a játék találkozik. Hiszünk abban, hogy a gondolkodás fejlesztése lehet élvezetes, inspiráló és hasznos minden korosztálynak.
@@ -35,10 +36,25 @@ Mit kínálunk?
 
 Miért hasznos?
 
-- Fejleszti a logikus gondolkodást és problémamegoldó készséget
+<CardGrid>
+  <Card icon="vercel">
+    Fejleszti a logikus gondolkodást és problémamegoldó készséget
+  </Card>
+  <Card icon="heart">
+    Erősíti a koncentrációt és a kreativitást
+  </Card>
+   <Card icon="puzzle">
+	Megmutatja, hogyan kapcsolódik össze a játék és a tudomány
+  </Card>
+  <Card icon="rocket">
+    Segít felkészülni a digitális jövő kihívásaira
+  </Card>
+</CardGrid>
+
+{/* - Fejleszti a logikus gondolkodást és problémamegoldó készséget
 - Erősíti a koncentrációt és a kreativitást
 - Megmutatja, hogyan kapcsolódik össze a játék és a tudomány
-- Segít felkészülni a digitális jövő kihívásaira
+- Segít felkészülni a digitális jövő kihívásaira */}
 
 </span>
 
