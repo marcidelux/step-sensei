@@ -42,7 +42,7 @@ export default defineConfig({
 							translations: {
 								'hu': 'Sakk & Matek',
 							},
-							slug: 'modules/chess_maths'
+							slug: 'modules/chess_maths' 
 						},
 					],
 				},
