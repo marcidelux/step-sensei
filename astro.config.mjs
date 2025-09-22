@@ -8,7 +8,7 @@ export default defineConfig({
 	base: '/',
 	integrations: [
 		starlight({
-			title: 'StepSensei',
+			title: 'LogicInfo',
 			defaultLocale: 'hu',
 			tableOfContents: false,
 			locales: {
