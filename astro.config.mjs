@@ -56,14 +56,14 @@ export default defineConfig({
 					},
 					items: [
 						{
-							label: 'Bugaj Mirka',
+							label: 'Mirka Bugaj',
 							translations: {
 								'hu': 'Bugaj Mirka',
 							},
 							slug: 'mentors/mirka'
 						},
 						{
-							label: 'Radnai Adam',
+							label: 'Adam Radnai',
 							translations: {
 								'hu': 'Radnai Ádám',
 							},
