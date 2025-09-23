@@ -7,17 +7,39 @@ hero:
     file: ../../../assets/logo.png
 ---
 
-import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard, CardGrid, Card } from '@astrojs/starlight/components';
 
 # Our Mission
-Our group is dedicated to providing high-quality after-school study opportunities for children.
-We believe in building strong minds through engaging and challenging activities, with a special focus on Chess, Mathematics, and Informatics.
-Our goal is to create a supportive environment where kids can learn, grow, and discover the joy of problem-solving and strategic thinking.
+<span style={{ fontSize: '1.4rem' }}>
+LogicInfo is a unique program where learning meets play. \
+We believe that developing thinking skills can be enjoyable, inspiring, and valuable for all ages.
+
+## What do we offer? 
+<CardGrid>
+  <Card title="Computer Science & AI Basics" icon="rocket">
+    Get ready for the challenges of our digital age.  
+    Accessible for complete beginners and inspiring for advanced learners.
+  </Card>
+  <Card title="Board Games & Chess Variants" icon="star">
+    Discover creative strategies and fresh perspectives.  
+    Build strong logical thinking and problem-solving skills.
+  </Card>
+  <Card title="Digital Creativity & Visual Culture" icon="heart">
+    Learn how to create and interpret digital content.  
+    Boost your focus, imagination, and creative expression.
+  </Card>
+  <Card title="Playful Mathematics" icon="puzzle">
+    Explore the fascinating connection between games and science.  
+    Make learning math an inspiring and fun adventure.
+  </Card>
+</CardGrid>
+
+
+</span>
 
 ## Menu
 <LinkCard
 	title="Modules"
-	icon="pencil"
 	href="/en/modules/logicinfo/"
 	description="Learn more about our Modules."
 >
@@ -25,7 +47,6 @@ Our goal is to create a supportive environment where kids can learn, grow, and d
 </LinkCard>
 <LinkCard
 	title="Mentors"
-	icon="people"
 	href="/en/mentors/mirka/"
 	description="Get to know our Mentors."
 >
@@ -33,7 +54,6 @@ Our goal is to create a supportive environment where kids can learn, grow, and d
 </LinkCard>
 <LinkCard
 	title="Contact"
-	icon="add-document"
 	href="/en/contact/"
 	description="Contact Us!"
 >
