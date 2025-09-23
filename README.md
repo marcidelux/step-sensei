@@ -1,2 +1,2 @@
-# step-sensei
-Static webpage for advertising StepSensei organisation for teaching LogicInfo (Logic, Chess and Informatics)
+# LogicInfo
+Static webpage for advertising LogicInfo organisation for teaching LogicInfo (Logic, Chess and Informatics)
