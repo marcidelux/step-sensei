@@ -9,6 +9,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'LogicInfo',
+			logo: {
+				src: './src/assets/logo.png',
+			},
 			defaultLocale: 'hu',
 			tableOfContents: false,
 			locales: {
