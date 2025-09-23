@@ -70,8 +70,14 @@ export default defineConfig({
 							slug: 'mentors/radnai-adam'
 						},
 					],
-				}
-
+				},
+			{
+				label: 'Contact',
+				translations: {
+					'hu': 'Kapcsolat',
+				},
+				slug:'contact'
+			}
 			],
 			customCss: ['./src/styles/custom.css'],
 		}),
