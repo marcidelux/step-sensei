@@ -29,16 +29,9 @@ export default defineConfig({
 						{
 							label: 'Chess',
 							translations: {
-								'hu': 'Sakk Angolul',
+								'hu': 'Sakk',
 							},
 							slug: 'modules/chess_english'
-						},
-						{
-							label: 'LogicInfo',
-							translations: {
-								'hu': 'LogicInfo',
-							},
-							slug: 'modules/logic_info'
 						},
 						{
 							label: 'Chess & Maths',
@@ -46,6 +39,13 @@ export default defineConfig({
 								'hu': 'Sakk & Matek',
 							},
 							slug: 'modules/chess_maths' 
+						},
+						{
+							label: 'LogicInfo',
+							translations: {
+								'hu': 'LogicInfo',
+							},
+							slug: 'modules/logic_info'
 						},
 					],
 				},
@@ -71,13 +71,13 @@ export default defineConfig({
 						},
 					],
 				},
-			{
-				label: 'Contact',
-				translations: {
-					'hu': 'Kapcsolat',
-				},
-				slug:'contact'
-			}
+				{
+					label: 'Contact',
+					translations: {
+						'hu': 'Kapcsolat',
+					},
+					slug:'contact'
+				}
 			],
 			customCss: ['./src/styles/custom.css'],
 		}),
