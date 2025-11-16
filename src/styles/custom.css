@@ -3,13 +3,13 @@
   html[data-theme='dark'],
   body[data-theme='dark'],
   html[data-theme='dark'] body {
-    background: radial-gradient(circle at top, #262668, #040408) !important;
+    background: radial-gradient(circle at top, #4b4ba9, #030314) !important;
   }
 
   /* Light theme background */
   html[data-theme='light'],
   body[data-theme='light'],
   html[data-theme='light'] body {
-    background: radial-gradient(circle at top, #e7dfdf, #888891) !important;
+    background: radial-gradient(circle at top, #d9c9c9, #3e41ca56) !important;
   }
 }
